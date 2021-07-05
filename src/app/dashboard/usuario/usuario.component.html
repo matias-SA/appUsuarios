@@ -1,0 +1,15 @@
+<div class="row d-flex justify-content-center mt-5" *ngIf="loading">
+  <div class="spinner-grow"></div>
+  <div class="spinner-grow"></div>
+  <div class="spinner-grow"></div>
+</div>
+<div class="row d-flex justify-content-center mt-5" *ngIf="!loading">
+  <div class="card" style="width: 25rem;">
+    <img src="{{imgUrl}}" class="card-img-top" alt="Foto usuario">
+    <div class="card-body">
+      <h5 class="card-title">{{name}}</h5>
+      <p class="card-text">Email: {{email}} <br>Genero: {{gender}}<br>Estado de actividad: {{status}}</p>
+      <a routerLink="/dashboard" class="btn btn-primary">Volver</a>
+    </div>
+  </div>
+</div>

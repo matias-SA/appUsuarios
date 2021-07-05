@@ -1,0 +1,10 @@
+<div class="row d-flex justify-content-around mt-5">
+  <div class="row d-flex justify-content-center " *ngIf="loading">
+    <div class="spinner-grow"></div>
+    <div class="spinner-grow"></div>
+    <div class="spinner-grow"></div>
+  </div>
+  <div *ngFor="let usuarios of listUsuarios" class="col-lg-3 m-1">
+    <app-card-usuarios [user]="usuarios" ></app-card-usuarios>
+  </div>
+</div>
