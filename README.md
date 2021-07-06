@@ -1,4 +1,8 @@
-# AppUsuarios
+# App Usuarios API
+
+Aplicacion web que cumple con el finde manejar datos de usuarios atravez de llamadas HTTP y manejar Angular Routiing para mostrar detalles de los usuarios.
+
+Tecnologias utilizadas: Angular 10 y Bootstrap
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.3.
 
